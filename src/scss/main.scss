@@ -3,3 +3,65 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    font-style: normal;
+    --brand-grey: #4a4a4a;
+    --brand-black:#000000;
+    --brand-orange: #f26002 ;
+    --brand-backgroud: #EFF9FF  ;
+    --brand-footer:  #304268;
+    --brand-title: "Roboto Slab", serif;
+    --brand-body: "Roboto", sans-serif;
+}
+
+h1{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+  
+  }
+
+h2{   
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+   }
+
+  .header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100vw;
+   height: 100vh;
+   background-image: url('../images/cover.jpeg') ;
+   background-size: cover;
+     }
+.menu_icon {
+   background-color: #0271BC ;
+   padding: 0.75rem;
+   margin-right: auto;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+      }
+
+.company{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: auto;
+
+
+}
+  .slogan{
+    color: white;
+    margin-bottom: auto;
+}
+.scroll_icon{
+    border-color: green;
+    border-radius: 50%;
+    padding: 0.75rem;
+    background-color: white;
+    margin-bottom: auto;
+   
+}
