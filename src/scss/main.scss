@@ -119,10 +119,12 @@ h2{
     
     background-color: var(--brand-backgroud);
     text-align: center;
-    padding-block: 1rem;
+    padding-block: 2rem;
+    padding-bottom: 4rem;
     height: 100%;
     width: 100%;
     margin-inline: 0.2rem;
+   
    }
 
 .list{
@@ -135,10 +137,25 @@ h2{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 1.5rem;
-    padding-block: 2rem;
     padding-inline: 5rem;
+    padding-bottom: 3rem;
    
 }
+.more_info{
+    color: white;
+    font-family: var(--brand-body);
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-align: justify;
+    border-radius: 3rem;
+    background-color: var(--brand-orange);
+    width: 50%;
+    padding-block: 0.90rem;
+    padding-inline: 1.5rem;
+     
+
+}
+
 
 .footer {
     background-color: var(--brand-footer);
