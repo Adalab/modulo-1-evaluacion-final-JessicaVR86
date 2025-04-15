@@ -81,17 +81,31 @@ h2{
     padding: 0.5rem;   
     background-color: white;
     width: 2.7rem;
+   
     
 }
 
 .hero{
-    margin-inline: 0.2rem;
-    margin-block: 2rem;
+    margin-inline: 0.5rem;
+    margin-block: 2.5rem;
 }
-.message{
+#message{
     color: var(--brand-skyblue);
     font-family: var(--brand-body);
     padding-block: 0.6rem ;
+}
+.go{
+    color: var(--brand-orange);
+    border: 2px solid var(--brand-orange);
+    font-family: var(--brand-body);
+    font-size: 1.30rem;
+    text-decoration: none;
+    border-radius: 3rem;
+    background-color: white;
+    padding-inline: 1.1rem;
+    padding-block: 0.5rem;
+
+
 }
 .message2 {
     color: var(--brand-grey);
@@ -160,5 +174,5 @@ h2{
     padding: 0.4rem;
     background-color: white;
     width: 2.7rem;
-
+    transform: translate(0px , -70px );
 }
