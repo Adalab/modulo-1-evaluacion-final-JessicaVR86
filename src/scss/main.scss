@@ -25,7 +25,7 @@ h2{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-   }
+}
 
   .header{
    display: flex;
@@ -35,7 +35,10 @@ h2{
    height: 100vh;
    background-image: url('../images/cover.jpeg') ;
    background-size: cover;
-     }
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
 .menu_icon {
    background-color: #0271BC ;
    padding: 0.75rem;
@@ -45,23 +48,34 @@ h2{
    z-index: 1;
       }
 
-.company{
+.company {
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25rem;
+    gap: 1rem;
+    
+}
+
+.title{
     color: white;
     text-align: center;
     font-size: 3rem;
-    margin-bottom: auto;
-
-
+    
 }
-  .slogan{
+.slogan{
     color: white;
-    margin-bottom: auto;
+    
 }
 .scroll_icon{
     border-color: green;
-    border-radius: 50%;
+    border-radius: 55%;
     padding: 0.75rem;
     background-color: white;
-    margin-bottom: auto;
+    width: 3.5rem;
+    bottom: 3rem;
+    justify-content: center;
    
+    
 }
