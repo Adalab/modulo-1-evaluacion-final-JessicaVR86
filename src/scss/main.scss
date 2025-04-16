@@ -189,7 +189,7 @@ h2 {
   text-decoration: none;
 }
 
-@media (min-width: 481px) {
+@media (min-width:481px) {
   .list{
         grid-template-columns: repeat(3, 1fr);
  }
@@ -202,8 +202,13 @@ h2 {
     order: 2;
    }
    .social_media{
-    order: 3;
+    order: 3; 
    }
  }
 }
 
+@media(width > 1024px){
+  .hero{
+   margin-inline: 20%;    
+  }
+}
