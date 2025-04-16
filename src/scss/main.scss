@@ -52,6 +52,7 @@ h2 {
   z-index: 1;
 }
 
+
 .company {
   display: flex;
   flex-direction: column;
@@ -75,6 +76,11 @@ h2 {
   padding: 0.5rem;
   background-color: white;
   width: 2.7rem;
+  &:hover{
+    background-color: var(--brand-skyblue);
+    color:(white);
+  }
+
 }
 
 .hero {
@@ -96,7 +102,13 @@ h2 {
   background-color: white;
   padding-inline: 1.1rem;
   padding-block: 0.5rem;
+  &:hover{
+    background-color: var(--brand-orange);
+    color:(white);
+  }
 }
+
+
 .message2 {
   color: var(--brand-grey);
   font-family: var(--brand-body);
@@ -113,6 +125,7 @@ h2 {
   width: 100%;
   margin-inline: 0.2rem;
 }
+
 .list {
   color: var(--brand-black);
   font-family: var(--brand-body);
@@ -135,6 +148,11 @@ h2 {
   width: 50%;
   padding-block: 0.9rem;
   padding-inline: 1.5rem;
+  &:hover{
+    background-color: white;
+    color:(var(--brand-orange));
+  }
+
 }
 
 .footer {
@@ -155,6 +173,11 @@ h2 {
   border-radius: 50%;
   padding: 0.5rem;
   background-color: white;
+  &:hover{
+    background-color: var(--brand-skyblue);
+    
+  }
+
 }
 
 
@@ -200,7 +223,7 @@ h2 {
   }
 }
 
-@media (width > 1020px) {
+@media (min-width: 1024px) {
   .hero {
     margin-inline: 20%;
   }
