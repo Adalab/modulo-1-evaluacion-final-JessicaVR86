@@ -52,7 +52,6 @@ h2 {
   z-index: 1;
 }
 
-
 .company {
   display: flex;
   flex-direction: column;
@@ -76,11 +75,10 @@ h2 {
   padding: 0.5rem;
   background-color: white;
   width: 2.7rem;
-  &:hover{
+  &:hover {
     background-color: var(--brand-skyblue);
-    color:(white);
+    color: (white);
   }
-
 }
 
 .hero {
@@ -102,12 +100,11 @@ h2 {
   background-color: white;
   padding-inline: 1.1rem;
   padding-block: 0.5rem;
-  &:hover{
+  &:hover {
     background-color: var(--brand-orange);
-    color:(white);
+    color: (white);
   }
 }
-
 
 .message2 {
   color: var(--brand-grey);
@@ -148,11 +145,10 @@ h2 {
   width: 50%;
   padding-block: 0.9rem;
   padding-inline: 1.5rem;
-  &:hover{
+  &:hover {
     background-color: white;
-    color:(var(--brand-orange));
+    color: (var(--brand-orange));
   }
-
 }
 
 .footer {
@@ -167,19 +163,16 @@ h2 {
   align-items: center;
   position: relative;
 }
-.button{
+.button {
   position: absolute;
   top: -20px;
   border-radius: 50%;
   padding: 0.5rem;
   background-color: white;
-  &:hover{
+  &:hover {
     background-color: var(--brand-skyblue);
-    
   }
-
 }
-
 
 .pages {
   text-transform: uppercase;
@@ -200,10 +193,15 @@ h2 {
   text-decoration: none;
 }
 
-.sm {
+.link {
   color: white;
   text-decoration: none;
+  &:hover {
+    background-color: var(--brand-skyblue);
+    color: var(--brand-orange);
+  }
 }
+
 
 @media (min-width: 481px) {
   .list {
